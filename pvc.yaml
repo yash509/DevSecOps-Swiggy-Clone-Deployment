@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: PersistentVolumeClaim
 metadata:
-  name: pe-wa-pvc
+  name: swiggy-clone-pvc
 spec:
   accessModes:
     - ReadWriteOnce
