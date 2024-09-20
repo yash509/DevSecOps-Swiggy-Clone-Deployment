@@ -1,13 +1,13 @@
 apiVersion: batch/v1
 kind: Job
 metadata:
-  name: pe-wa-job
+  name: swiggy-clone-job
 spec:
   template:
     spec:
       containers:
-      - name: pe-wa-job
-        image: yash5090/pe-wa:latest
+      - name: swiggy-clone-job
+        image: yash5090/swiggy-clone:latest
         ports:
-        - containerPort: 5000
+        - containerPort: 3000
       restartPolicy: OnFailure
